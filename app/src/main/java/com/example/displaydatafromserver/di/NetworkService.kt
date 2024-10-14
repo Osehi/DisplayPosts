@@ -1,6 +1,6 @@
 package com.example.displaydatafromserver.di
 
-import com.example.displaydatafromserver.api.JSONPlaceholderAPI
+import com.example.displaydatafromserver.data.api.JSONPlaceholderAPI
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
 
