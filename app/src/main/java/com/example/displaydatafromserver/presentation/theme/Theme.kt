@@ -1,4 +1,4 @@
-package com.example.displaydatafromserver.ui.theme
+package com.example.displaydatafromserver.presentation.theme
 
 import android.app.Activity
 import android.os.Build

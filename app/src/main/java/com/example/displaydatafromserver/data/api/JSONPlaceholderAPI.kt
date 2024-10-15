@@ -5,5 +5,5 @@ import retrofit2.http.GET
 
 interface JSONPlaceholderAPI {
     @GET("/posts")
-    fun allPosts(): JSONPlaceHolderResponse
+    suspend fun allPosts(): JSONPlaceHolderResponse
 }

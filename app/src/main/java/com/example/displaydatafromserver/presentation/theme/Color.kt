@@ -1,4 +1,4 @@
-package com.example.displaydatafromserver.ui.theme
+package com.example.displaydatafromserver.presentation.theme
 
 import androidx.compose.ui.graphics.Color
 
