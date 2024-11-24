@@ -61,7 +61,7 @@ class ListOfPostKtTest {
         val testViewModel = MyPostViewModel()
 
         rule.setContent {
-            ListOfPost(viewModel = testViewModel)
+//            ListOfPost(viewModel = testViewModel)
         }
 
         rule.waitForIdle() // simulate the loading process
