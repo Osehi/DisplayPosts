@@ -4,9 +4,10 @@ import com.example.displaydatafromserver.di.NetworkService
 import com.example.displaydatafromserver.domain.repository.JSONRepository
 import com.example.displaydatafromserver.domain.utils.Resource
 import com.example.displaydatafromserver.model.JSONPlaceHolderResponse
+import com.example.displaydatafromserver.model.JSONPlaceHolderResponseItem
 
 class JSONPlaceholderRepositoryImpl: JSONRepository {
-    override suspend fun getAllPost(): Resource<JSONPlaceHolderResponse> {
+    override suspend fun getAllPost(): Resource<List<JSONPlaceHolderResponseItem>> {
         return try {
             Resource.Success(
                 data = NetworkService.remoteService().allPosts()
